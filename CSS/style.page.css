@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h2,h3, h5, p, li, ul, ol, dt, dd{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*{padding: 0px;
+  margin: 0px;}
+
+header, nav, main, footer{
+    width: 100%;
+    padding: 20px;
+    /*margin-left:auto; 
+    margin-right: auto;*/
+}
+header, footer{
+    background-image: url(../Imagenes/medusaaaas.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+     /*width: 960px;*/
+     height: 150px; 
+     background-color:#5F395B;
+     /*color: #F7F1E1;*/
+     color: white;
+}
+nav{
+    background-color:#BAA0F2;
+    text-align: center;
+}
+main{
+    background-color:#855E6E;
+}
+footer{
+    background-color:#613858;
+    color: #F7F1E1;
+    
+}
+section{
+     width: 650px;
+     background-color:#F7F1E1;
+     color:#4C3256;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 30px;
+    border-radius: 20px;
+}
+h2, h3, p{
+    margin-bottom: 15px;
+}
+h1, h5 {
+    text-align: center;
+}
+h1 {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+nav {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+}
+ul {
+    padding-left: 20px;
+}             
+nav ul li{
+    width: 80px;
+    background-color:#F7F1E1;
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    border-width: 2px;
+    border-color:#BAA0F2;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 15px;
+}
+nav ul li a {
+    color:#CE7095;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background-color:#CE7095;
+    color: #855E6E;
+    width: 90px;
+}
+nav ul li a:hover{
+    color: #855E6E;
+    font-weight: bold;
+    font-size: 20px;
+}
+main nav{
+    width: 850px;
+    color: #CE7095;
+    background-color: transparent;
+    text-align: center;
+}
+img{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+#gato_naranja{
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+    
+}
+#gato_vaca{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+#icono{
+    width: 60px;
+    
+}
+#seccion_4{
+    background-image: url(../Imagenes/tapiz_03.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+}
+   
+#Menu_interno{
+    background-color: transparent;
+    width: 650px;
+    border-radius: 10px;
+    margin-left:auto; 
+    margin-right: auto;
+}
+#filtros_imagen{
+    text-align: center;
+}
+#filtros_imagen img{
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    padding: 10px;
+}
+#Gato_01{
+    filter: brightness(150%);
+}
+#Gato_02{
+    filter: contrast(50%);
+}
+#Gato_03{
+    filter: grayscale(100%)
+}
+#Gato_04{
+    filter: invert(100%);
+}
+#Gato_05{
+    filter: opacity(1);
+}
+#Gato_06{
+    filter: sepia(100%);
+}
+#Gato_07{
+    filter: saturate(200%);
+}
+#Gato_08{
+    filter: blur(2px);
+}
+#Gato_09{
+    filter: drop-shadow(10px 10px 10px black)
+}
+#Gato_10{
+    filter: saturate(150%) blur(2px)
+}
+#Gato_11{
+    filter: hue-rotate(50deg)
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+}

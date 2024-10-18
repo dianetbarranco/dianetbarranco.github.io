@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios HTML</title>
+<link href="../CSS/style.page.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		form{
+			width: 50%;
+			height: auto;
+			padding: 30px;
+			background-color: #CE7095;
+			color: #F7F1E1;
+			margin: 0 auto;
+			
+		}
+		label, input{
+			display: block;
+			margin-left: 10px;
+		}
+		label{
+			padding-bottom:  10px;
+			padding-top: 10px;
+		}
+		input[type=text], input[type=password]{
+			width: 100%;
+			color: #855E6E;
+			padding: 5px;
+			font-weight: bold;
+			border: 2px solid #CE7095;
+			border-radius: 8px;
+			margin: 0 auto;
+			
+		}
+		input[type=submit]{
+			width: 20%;
+			background-color: #855E6E;
+			padding: 10px;
+			margin: 20px auto;
+			color: #F7F1E1;
+			border-radius: 8px;
+			border: 2px solid #CE7095;
+			font-weight: bold;
+		}
+		input[type=text]:focus, input[type=password]:focus{
+			background-color: #F7F1E1;
+			border: 2px solid #CE7095;
+		}
+		
+		
+		#form1{
+			width: 50%;
+			height: auto;
+			padding: 30px;
+			background-color: #855E6E;
+			color: #F7F1E1;
+			margin: 0 auto;
+		}
+		
+		input[type=tel], input[type=number]{
+			width: 100%;
+			color: #855E6E;
+			padding: 5px;
+			font-weight: bold;
+			border: 2px solid #855E6E;
+			border-radius: 8px;
+			margin: 0 auto;
+		}
+		input[type=tel]:focus, input[type=number]:focus{
+			background-color: #FFB2C1;
+			border: 2px solid #CE7095;
+		}
+		select[id=cuidad]{
+			width: 100%;
+			color: #855E6E;
+			padding: 5px;
+			font-weight: bold;
+			border: 2px solid #855E6E;
+			border-radius: 8px;
+		}
+		select[id=cuidad]:focus{
+			background-color: #F7F1E1;
+			border: 2px solid #CE7095;
+		}
+		
+		label[for=Musica]{
+			
+		}
+		
+	
+	</style>
+</head>
+
+<body>
+<header>
+  <h1>Formularios</h1>
+</header>
+    <nav>
+		<ul>
+           <li><a href="../Index.html">Dianet</a></li>
+           <li><a href="listas.html">Favoritos</a></li>
+           <li><a href="Enlaces.html">Nett Day</a></li>
+           <li><a href="tablas.html">Amigos</a></li>
+           <li><a href="style.page.html">Galeria</a></li>
+           <li><a href="Audio.html">Música</a></li>
+           <li><a href="video.html">Games</a></li>
+           <li><a href="Formularios.html">Formulario</a></li>
+       </ul>
+	
+</nav>
+<main>
+  <section id="seccion_1">
+    <h2>Formulario 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptatibus impedit alias molestias officiis aliquid dolorem culpa dolorum harum quos cumque tenetur, iure sed eveniet nemo quod inventore reiciendis sapiente consectetur nihil. Inventore sapiente velit laborum eum neque enim, obcaecati odio doloremque error deserunt quis amet, eaque, quod provident tempora! Quisquam ipsam, natus quasi voluptatem quaerat dignissimos inventore dicta! Repudiandae veritatis labore, enim ut optio voluptates maxime non architecto recusandae a blanditiis temporibus quam necessitatibus, mollitia sit, error at, rem. Maxime animi aliquam, odit incidunt expedita nobis placeat, tempore iste earum sunt molestias blanditiis delectus ad quidem distinctio facere amet!</p>
+    <form action="" method="get"> 
+	   		<label id="">Nombre:</label>
+		  <input type="text" id="nombre" name="nombre">
+		  <label id=""> Contraseña:</label>
+		  <input type="password" id="contrasena" name="contrasena">
+		  <input id="000" type="submit" value="Enviar">
+	  </form>
+      <a href="#Menu_interno"> <img id="icono" src="../Iconos/Estrella.png" alt="Estrella"></a>
+  </section>
+  <section id="seccion_2">
+    <h2>Formulario 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptatibus impedit alias molestias officiis aliquid dolorem culpa dolorum harum quos cumque tenetur, iure sed eveniet nemo quod inventore reiciendis sapiente consectetur nihil. Inventore sapiente velit laborum eum neque enim, obcaecati odio doloremque error deserunt quis amet, eaque, quod provident tempora! Quisquam ipsam, natus quasi voluptatem quaerat dignissimos inventore dicta! Repudiandae veritatis labore, enim ut optio voluptates maxime non architecto recusandae a blanditiis temporibus quam necessitatibus, mollitia sit, error at, rem. Maxime animi aliquam, odit incidunt expedita nobis placeat, tempore iste earum sunt molestias blanditiis delectus ad quidem distinctio facere amet!</p>
+    <form id="form1" name="form1" method="post">
+      <label for="tel">Nombre:</label>
+      <input type="tel" name="tel">
+      <label for="number">Number:</label>
+      <input type="number" name="number" id="number" min="18" max="90" >
+      <label for="cuidad">Estado:</label>
+      <select id="cuidad" name="cuidad">
+		  <option value="Puebla">Puebla</option>
+		  <option value="Colima">Colima</option>
+		  <option value="Mexico">Mexico</option>
+		  <option value="Monterrey">Monterrey</option>
+		  <option value="Yucatan">Yucatan</option>
+		  <option value="Oaxaca">Oaxaca</option>
+      </select>
+      <input type="submit" name="submit" id="submit" value="Enviar">
+    </form>
+	  <p>&nbsp;</p>
+      <a href="#Menu_interno"> <img id="icono" src="../Iconos/Estrella.png" alt="Estrella"></a>
+  </section>
+  <section id="seccion_3">
+    <h2>Formulario 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptatibus impedit alias molestias officiis aliquid dolorem culpa dolorum harum quos cumque tenetur, iure sed eveniet nemo quod inventore reiciendis sapiente consectetur nihil. Inventore sapiente velit laborum eum neque enim, obcaecati odio doloremque error deserunt quis amet, eaque, quod provident tempora! Quisquam ipsam, natus quasi voluptatem quaerat dignissimos inventore dicta! Repudiandae veritatis labore, enim ut optio voluptates maxime non architecto recusandae a blanditiis temporibus quam necessitatibus, mollitia sit, error at, rem. Maxime animi aliquam, odit incidunt expedita nobis placeat, tempore iste earum sunt molestias blanditiis delectus ad quidem distinctio facere amet!</p>
+    <form id="form2" name="form2" method="post">
+      <label for="textfield">Nombre:&nbsp;</label>
+      <input type="text" name="textfield" id="textfield">
+		<label for="Genero">Genero</label>
+      <table width="200" style="width: 30%">
+        <tr>
+          <td ><label><input type="radio" name="Genero" value="Fem" id="Genero_0"></label></td>
+		  <td>Femenino</td>
+        </tr>
+        <tr>
+          <td><label><input type="radio" name="Genero" value="Mas" id="Genero_1"></label>
+            <td>Masculino</td>
+        </tr>
+        <tr>
+          <td><label><input type="radio" name="Genero" value="Otros" id="Genero_2"></label>
+            <td>Otros</td>
+		  </tr> 
+      </table>
+		
+	  <label for="Musica">¿Cual es tu genero musical favorito?</label>
+		<p>
+		  <input  style="display: inline-block" type=checkbox  name="Musica" value="rock" id="Musica_0"> <label style="display: inline-block">Rock</label> 
+		  <br>
+		  <input  style="display: inline-block" type=checkbox  name="Musica" value="sal" id="Musica_1"> <label  style="display: inline-block">Salsa</label>
+		  <br>
+		  <input  style="display: inline-block" type=checkbox  name="Musica" value="pop" id="Musica_2"><label  style="display: inline-block">Pop</label> 
+		  <br>
+		  <input  style="display: inline-block" type=checkbox  name="Musica" value="alter" id="Musica_3"><label  style="display: inline-block">Alternativo</label>
+		  <br>
+		  <input  style="display: inline-block" type=checkbox name="Musica" value="punk" id="Musica_4"><label  style="display: inline-block" >Punk</label>
+            
+		  <input type="submit" name="submit2" id="submit2" value="Enviar">
+		  <br>
+	  </p>
+    </form>
+      <a href="#Menu_interno"> <img id="icono" src="../Iconos/Estrella.png" alt="Estrella"></a>
+  </section>
+  <section id="seccion_5">
+    <h2>Formulario 4</h2>
+    <p>Si tuviera la oportunidad de hablar con El Mariana, le pediría que respondiera algunas preguntas sobre su experiencia como streamer. Me encantaría conocer cómo ha manejado su crecimiento en la industria del streaming y cuáles han sido los mayores retos que ha enfrentado. Sería interesante saber cómo ha logrado mantener la autenticidad en su contenido mientras sigue creciendo y qué consejos daría a quienes buscan empezar en este mundo. </p>
+      <form action="" method="post">
+        <label for="nombre">1. ¿Cuál es tu nombre completo?</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="edad">2. ¿Cuál es tu edad?</label>
+        <input type="number" id="edad" name="edad" min="0" required><br><br>
+        
+        <label for="fecha-nacimiento"> 3. ¿Cúal es tu fecha de nacimiento?</label><input type="date" id="fecha-nacimiento" name="fecha-nacimiento"><br><br>
+
+        <label for="inicio-streaming">4. ¿Cuándo comenzaste a hacer streaming?</label>
+        <input type="date" id="inicio-streaming" name="inicio-streaming"><br><br>
+
+        <label for="juegos-favoritos">5. ¿Cuáles son tus videojuegos favoritos?</label>
+        <input type="text" id="juegos-favoritos" name="juegos-favoritos"><br><br>
+
+        <label for="color-favorito"> 6. Elije tu color <b>favorito</b>:</label>
+        <input type="color" id="color-favorito" name="color-favorito"><br><br>
+        
+        <label for="telefono">7. Si quisieras recibir mensajes de los fans, ¿cuál sería un número de contacto?</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono"><br><br>
+
+        <label for="mejor-consejo">8. ¿Cuál es el mejor consejo que podrías dar a alguien que quiere empezar a hacer streaming?</label>
+        <input type="text" id="mejor-consejo" name="mejor-consejo" placeholder="Escribe tu consejo aquí"><br><br>
+        
+        <label for="homepage">9. ¿Cúal es tu pagina de streams?</label><input type="url" id="homepage" name="homepage">
+          
+        <label for="horasDormir">10. ¿Que tan feliz te sientes ahora siendo streamer? (izquierda menos, derecha más)</label>
+        <input type="range" id="horasDormir" name="horasDormir" min="1" max="12" value="7" required>
+
+       <input type="submit" name="submit" id="submit" value="Enviar">         
+    </form>
+      <a href="#Menu_interno"> <img id="icono" src="../Iconos/Estrella.png" alt="Estrella"></a>
+  </section>
+      <nav id="Menu_interno">
+                <ul>
+                    <li><a href="#seccion_1">Formulario 1</a></li>
+                    <li><a href="#seccion_2">Formulario 2</a></li>
+                    <li><a href="#seccion_3">Formulario 3</a></li>
+                    <li><a href="#seccion_5">Formulario 4</a></li>
+                </ul>
+            </nav>
+</main>
+<footer>
+  <h5>Elaborado por Dianet Barranco</h5>
+</footer>
+	
+</body>
+</html>

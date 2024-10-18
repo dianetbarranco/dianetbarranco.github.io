@@ -1,0 +1,487 @@
+<html>
+    <head>
+        <title>Tablas HTML</title>
+        <link rel="stylesheet" href="..//CSS/style.page.css" type="text/css">
+        <style>
+            #tabla_uno {
+                width: 100%;
+                text-align: center;
+                margin: 0 auto;
+                color: #855E6E;
+                border-style:solid;
+                border-color: #CE7095;
+                border-width: 5px;
+                
+            }
+            #tabla_uno th {
+                background-color: #CE7095;
+                border-width: 2px;
+                color: #F7F1E1;
+                
+            }
+           #tabla_uno td{
+                background-color: #FFDBD7;
+                text-align: left;
+                border-radius: 5px;
+                border-style: solid;
+                border-color: #CE7095;
+                border-width: 2px;
+                margin: 10px;
+            }
+            #Tabla2 {
+                border-color: #855E6E;
+                text-align: center;
+                margin: auto;
+            }
+            #Tabla2 td{
+                color: #CE7095;
+                border-color:#FFB2C1;
+                height: 5px;
+                border-radius: 15px;
+                padding: 20px;
+                border-style: dashed;
+            }
+            .celda_centrada{
+                padding: 0px;
+                background-color:#855E6E;
+                text-align: center;
+                
+            }
+            .Tabla_dos{
+                width: 600px;
+                border-collapse: collapse;
+                border-color: #F7F1E1;
+                border-style: dotted
+            }
+            .Tabla_dos th {
+                background-color: #CE7095;
+                border-width: 2px;
+                color: #F7F1E1;
+            }
+            .Tabla_dos td{
+                width: 100px;
+                border-color: #F7F1E1;
+                padding: 10px;
+                background-color: #FFDBD7;
+                text-align: left;
+                border-radius: 5px;
+                border-style: solid;
+                border-color: #CE7095;
+                border-width: 2px;
+                margin: 10px;
+            }
+            #Tabla3{
+                width: 100%;
+                margin: auto;
+                border-color:#855E6E;
+                height: 5px;
+                border-radius: 0px;
+                padding: 10px;
+                border-style: dashed;
+                
+                
+            }
+            #Tabla3 tbody tr:nth-child(even){
+                background-color: #FFB2C1;
+                color: #855E6E;
+                padding: 0px;
+            }
+            #Tabla3 tbody tr:nth-child(odd){
+                background-color: #CE7095;
+                color: #F7F1E1;
+                padding: 10px;
+            }
+            .tabla3 tbody td{
+            padding: 10px;
+                
+            }
+            #Tabla3 thead tr{
+                background-color: #855E6E;
+                color: #F7F1E1;
+                padding: 10px;
+            }
+            .tabla4{
+                width: 80%;
+                margin: 0 auto;
+                border-radius: 5px;
+                border-style:double;
+                border-color: #CE7095;
+                border-width: 5px;
+                margin: auto;
+            }
+            /*.tabla4 tr:hover{
+                background-color: fuchsia
+                
+            }
+            .tabla4 th{
+                background-color:#855E6E;
+                padding: 10px;
+                color: #F7F1E1;
+                border-radius: 10px;
+                border-style: dashed;
+                border-color: #F7F1E1;
+                border-width: 2px;
+    
+            }
+            .tabla4 td{
+                background-color: #FFDBD7;
+                padding: 10px;
+                color: #855E6E;
+                border-radius: 10px;
+                border-style: dashed;
+                border-color: #F7F1E1;
+                border-width: 2px;
+                
+            }*/
+            .tabla_hover{
+            width: 100%;
+            margin: 0 auto;
+            color: #855e6e;
+             }
+            
+            .tabla_hover thead th{
+            background-color:#ce7095;
+            padding: 10px;
+            color:#855E6E ;
+            }
+            
+            .tabla_hover tbody td{
+            background-color:#FFDBD7;
+            padding: 15px;
+            }
+            
+           .tabla_hover tbody tr:hover{
+            background-color:red;
+            color:#CE7095; 
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Amigos</h1></header>
+        <nav>
+            <ul>
+            <li><a href="../index.html">Dianet</a></li>
+           <li><a href="listas.html">Favoritos</a></li>
+           <li><a href="enlaces.html">Nett Day</a></li>
+           <li><a href="tablas.html">Amigos</a></li>
+           <li><a href="style.page.html">Galeria</a></li>
+           <li><a href="audio.html">Música</a></li>
+           <li><a href="video.html">Games</a></li>
+           <li><a href="formularios.html">Formulario</a></li>
+       </ul>
+        </nav>
+    
+        <main>
+            <section id="tabla01" style="overflow-x: auto; ">
+                <h2>Carreras</h2>
+                <p>La siguiente tabla contiene información detallada sobre varios amigos, incluyendo sus matrículas, las carreras que están estudiando y sus nombres completos. Estos datos nos permiten tener una visión clara de su trayectoria académica y su identidad dentro de las distintas áreas de estudio que han elegido. Es una representación ordenada y útil de algunos aspectos clave de su vida universitaria, lo que facilita un entendimiento de su contexto educativo y personal.</p>
+                <table border="1" id="tabla_uno">
+                    <thead>
+                        <tr>
+                            <th>Matricula</th>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Carrera</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>202143206</td>
+                            <td>Dianet</td>
+                            <td>Barranco</td>
+                            <td>Barranco</td>
+                            <td>Diseño gráfico</td>
+                        </tr>
+                        <tr>
+                            <td>202178152</td>
+                            <td>Jesús Gustavo</td>
+                            <td>Estrada</td>
+                            <td>Sanchez</td>
+                            <td>Comunicación</td>
+                        </tr>
+                        <tr>
+                            <td>202078950</td>
+                            <td>Sergio</td>
+                            <td>Teofilo</td>
+                            <td>Martinez</td>
+                            <td>Derecho</td>
+                        </tr>
+                        <tr>
+                            <td>202169061</td>
+                            <td>Carla</td>
+                            <td>Hernandez</td>
+                            <td>Escobar</td>
+                            <td>Diseño gráfico</td>
+                        </tr>
+                        <tr>
+                            <td>202140175</td>
+                            <td>Julian Alain</td>
+                            <td>Ortega</td>
+                            <td>Casiano</td>
+                            <td>Artes Pasticas</td>
+                        </tr>
+                        <tr>
+                            <td>202109173</td>
+                            <td>Alan Daniel</td>
+                            <td>De la Cruz</td>
+                            <td>Ontiveros</td>
+                            <td>Diseño gráfico</td>
+                        </tr>
+                        <tr>
+                            <td>202145555</td>
+                            <td>Daniela</td>
+                            <td>Ramirez</td>
+                            <td>Sanchez</td>
+                            <td>Ingenieria Industrial</td>
+                        </tr>
+                        <tr>
+                            <td>202108888</td>
+                            <td>Adriana</td>
+                            <td>Cortes</td>
+                            <td>Hernandez</td>
+                            <td>Diseño gráfico</td>
+                        </tr>
+                        <tr>
+                            <td>202188321</td>
+                            <td>Emanuel</td>
+                            <td>Aguilar</td>
+                            <td>Torres</td>
+                            <td>Ingenieria</td>
+                        </tr>
+                        <tr>
+                            <td>202108532</td>
+                            <td>Karina</td>
+                            <td>Celis</td>
+                            <td>Mendieta</td>
+                            <td>Diseño gráfico</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+                <a href="#Menu_interno"> <img id="icono" src="../Iconos/Estrella.png" alt="Estrella"></a>
+            </section>
+            <section  style="overflow-x: auto;">
+                <h2 id="tabla02">Compañia Telefonica</h2>
+                <p>La siguiente tabla presenta una recopilación de números telefónicos junto con las compañías a las que están afiliados. Esta información ofrece una visión clara de las diferentes líneas telefónicas y los proveedores de servicios móviles utilizados por las personas incluidas. El desglose por compañía permite observar qué operadores son más comunes entre estos contactos, proporcionando una referencia útil para saber con qué empresas están vinculadas sus líneas telefónicas, además de que se coloca el monto de cualto recargan mensualmente.</p>
+                <table id="Tabla2" class="Tabla_dos">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th colspan="2">Números telefonicos</th>
+                            <th>Compañia</th>
+                            <th>Recarga</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style=" width:200px;">Dianet Barranco</td>
+                            <td style=" width:200px;">2221577767</td>
+                            <td style=" width:200px;"></td>
+                            <td style="text-align: center">Telcel</td> 
+                            <td class="celda_centrada"style="padding: 0px; background-color:#855E6E; text-align: center;";>$200.00</td>
+                        </tr>
+                        <tr>
+                            <td style=" width:200px;">Gustavo Estrada</td>
+                            <td style=" width:200px;">2231248866</td>
+                            <td style=" width:200px;">2231235128</td>
+                            <td style="text-align: center">ATT y Telcel</td>
+                            <td class="celda_centrada"style="padding: 0px; background-color:#855E6E;text-align: center;">$200.00</td>
+                        </tr>
+                        <tr>
+                            <td style=" width:200px;">Hannya Barranco</td>>
+                            <td style=" width:200px;">2225113055</td>
+                            <td style=" width:200px;"></td>
+                            <td style="text-align: center">Telcel</td>
+                            <td class="celda_centrada"style=" padding: 0px; background-color:#855E6E; text-align: center;">$150.00</td>
+                        </tr>
+                        <tr>
+                            <td style=" width:200px;">Adriana Cortes</td>
+                            <td style=" width:200px;">2212787525</td>
+                            <td style=" width:200px;">8925082</td>
+                            <td style="text-align: center">Pillofon</td>
+                            <td class="celda_centrada" style="padding: 0px; background-color:#855E6E; text-align: center;">$0.00</td>
+                        </tr>
+                        <tr>
+                            <td style=" width:200px;">Alan de la Cruz</td>
+                            <td style=" width:200px;">2214350636</td>
+                            <td style=" width:200px;"></td>
+                            <td style="text-align: center">Telcel</td>
+                            <td style="text-align: center padding: 0px; background-color:#855E6E; text-align: center;">$200.00</td>
+                        </tr>
+                         <tr>
+                            <td style=" width:200px;">Carla Hernandez</td>
+                            <td style=" width:200px;">2213755020</td>
+                            <td style=" width:200px;">2226289681</td>
+                            <td style="text-align: center">Movistar</td>
+                            <td style="text-align: center padding: 0px; background-color:#855E6E; text-align: center;">$260.00</td>
+                        </tr>
+                        <tr>
+                            <td style=" width:200px;">Karina Celis</td>
+                            <td style=" width:200px;">2224942886</td>
+                            <td style=" width:200px;">2226040414</td>
+                            <td style="text-align: center">ATT</td>
+                            <td style="text-align: center padding: 0px; background-color:#855E6E; text-align: center;">$200.00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>TOTAL:</td>
+                        <td class="celda_centrada"; style="background-color: #CE7095; color: #F7F1E1"; >$1,210.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <a href="#Menu_interno"> <img id="icono" src="../Iconos/Estrella.png" alt="Estrella"></a>
+            </section>
+            <section>
+                <h2 id="tabla03">Favoritos</h2>
+                <p>La siguiente tabla presenta los colores favoritos, así como las flores y estaciones del año preferidas de varios amigos. A través de estos datos, se puede apreciar la diversidad de gustos y preferencias estéticas, así como las conexiones personales con la naturaleza y las estaciones. Los colores y flores favoritos reflejan aspectos de la personalidad de cada uno, mientras que las estaciones preferidas del año muestran su afinidad por ciertas épocas, ya sea por el clima, las actividades o los sentimientos que esas estaciones evocan.</p>
+                <table id="Tabla3" class="tabla3">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Color</th>
+                            <th>Flor</th>
+                            <th>Estación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           <td>Carla Hernandez</td>
+                           <td style="text-align: center">22</td>
+                           <td>Azul</td>
+                           <td>Lavanda/Lirio</td>
+                           <td>Otoño</td>
+                        </tr>
+                        <tr>
+                           <td>Dianet Barranco</td>
+                           <td style="text-align: center" >21</td>
+                           <td>Morado</td>
+                           <td>Lirios</td>
+                           <td>Otoño</td>
+                        </tr>
+                        <tr>
+                           <td>Alan de la Cruz</td>
+                           <td style="text-align: center;">25</td>
+                           <td>Rojo/Azul</td>
+                           <td>Tulipan</td>
+                           <td>Invierno</td>
+                        </tr>
+                        <tr>
+                           <td>Adriana Cortez</td>
+                           <td style="text-align: center;">20</td>
+                           <td>Lila/Negro</td>
+                           <td>Statice</td>
+                           <td>Otoño</td>
+                        </tr>
+                        <tr>
+                           <td>Gustavo Estrada </td>
+                           <td style="text-align: center;">22</td>
+                           <td>Rojo/Negro</td>
+                           <td>Tulipán/Lirio</td>
+                           <td>Otoño</td>
+                        </tr>
+                        <tr>
+                           <td>Hannya Barranco</td>
+                           <td style="text-align: center;">15</td>
+                           <td>Verde</td>
+                           <td>Rosas blancas</td>
+                           <td>Otoño</td>
+                        </tr>
+                        <tr>
+                           <td>Karina Celis</td>
+                           <td style="text-align: center;">21</td>
+                           <td>Lila</td>
+                           <td>Claveles</td>
+                           <td>Otoño/Verano</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tfoot>
+                </table>
+                <a href="#Menu_interno"> <img id="icono" src="../Iconos/Estrella.png" alt="Estrella"></a>
+            </section>
+            <section>
+                <h2 id="tabla04">Mascotas</h2>
+                <p>La siguiente tabla presenta información sobre los animales favoritos de mis amigos, así como los nombres que les pondrían si tuvieran o tienen uno. A través de estos datos, podemos ver una variedad de animales que despiertan el cariño y la admiración de cada persona, desde mascotas comunes como perros y gatos hasta animales más exóticos. Los nombres que han escogido o escogerían para sus animales favoritos reflejan su creatividad y las conexiones personales que sienten hacia esos seres, mostrando una parte de su personalidad a través de estas elecciones.</p>
+                <table id="" class="tabla_hover">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Cantidad</th>
+                            <th>Tipo</th>
+                            <th>Nombre</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           <td>Hannya Barranco</td>
+                           <td>4</td>
+                           <td>Gatos</td>
+                           <td>Kira, Gomita, Willy y Bosnia.</td>
+
+                        </tr>
+                       <tr>
+                           <td>Carla Hernzandez</td>
+                           <td>2</td>
+                           <td>Perro y gato</td>
+                           <td>Gary y Jaime</td>
+                           
+                        </tr>
+                        <tr>
+                           <td>Alan de la Cruz</td>
+                           <td>1</td>
+                           <td>Perro</td>
+                           <td>Canelo</td>
+                           
+                        </tr>
+                        <tr>
+                           <td>Adriana Cortez</td>
+                           <td>3</td>
+                           <td>Perro</td>
+                           <td>Chiquis, Cachacuas y Universo</td>
+                           
+                        </tr>
+                        <tr>
+                           <td>Dianet Barranco</td>
+                           <td>1</td>
+                           <td>Gallina</td>
+                           <td>Juan</td>
+                           
+                        </tr>
+                        <tr>
+                           <td>Karina Celis</td>
+                           <td>2</td>
+                           <td>Perros</td>
+                           <td>Canelo y Cala</td>
+                           
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#Menu_interno"> <img id="icono" src="../Iconos/Estrella.png" alt="Estrella"></a>
+            </section>
+            <nav id="Menu_interno">
+            <ul>
+               <li><a href="#tabla01">Carreras</a></li>
+               <li><a href="#tabla02">Compañia</a></li>
+               <li><a href="#tabla03">Favoritos</a></li>
+               <li><a href="#tabla04">Mascotas</a></li>
+            </ul>
+        </nav>
+        </main>
+        <footer>
+        <h5>Elaborado por: Dianet Barranco Barranco</h5>
+        </footer>
+    </body>
+</html>
